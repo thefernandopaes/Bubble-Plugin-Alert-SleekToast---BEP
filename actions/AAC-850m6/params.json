@@ -1,0 +1,213 @@
+{
+    "category": "plugins",
+    "display": " Alert SleekToast",
+    "fields": {
+        "AAD": {
+            "caption": "Title (Optional)",
+            "doc": "Title of the toast.",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Message",
+            "default_val": " This is your toast message.",
+            "doc": "Message of notification.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Timeout",
+            "default_val": 5000,
+            "doc": "Milisseconds until the Alert Message disappears. Example: 5000",
+            "editor": "DynamicValue",
+            "name": "timeout",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "Background color",
+            "default_val": "rgba(0,158,247,1)",
+            "doc": "Suggestions: Blue (Info): #009EF7. Green (Success): #50CD89. Yellow (Warning): #FFC700. Red (Error): #F1416C. Purple: #7239EA",
+            "editor": "Color",
+            "name": "background_color",
+            "rank": 3
+        },
+        "AAH": {
+            "caption": "Position",
+            "default_val": "Top Right",
+            "doc": "Where it will be shown.",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "Center,Top Left,Top Center,Top Right,Bottom Left,Bottom Center,Bottom Right",
+            "rank": 4
+        },
+        "AAI": {
+            "caption": "--- Animation Settings ---",
+            "editor": "Label",
+            "name": "info_settings",
+            "rank": 5
+        },
+        "AAJ": {
+            "caption": "Animation In",
+            "default_val": "fade in up",
+            "doc": "Default toast open animation.",
+            "editor": "Dropdown",
+            "name": "animation_in",
+            "options": "bounce in left,bounce in right,bounce in up,bounce in down,fade in,fade in down,fade in up,fade in left,fade in right, flip in",
+            "rank": 6
+        },
+        "AAK": {
+            "caption": "--- Font Style ---",
+            "editor": "Label",
+            "name": "info_style",
+            "rank": 8
+        },
+        "AAL": {
+            "caption": "Font Name (Title)",
+            "default_val": "Poppins",
+            "doc": "Type the name of the font exactly as you see in Bubble's Font Library. Example: Poppins",
+            "editor": "DynamicValue",
+            "name": "fontnametitle",
+            "rank": 9,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Font Weight (Message)",
+            "default_val": "400",
+            "editor": "Dropdown",
+            "name": "fontWeightMessage",
+            "options": "100,200,300,400,500,600,700,800,900",
+            "rank": 11
+        },
+        "AAN": {
+            "caption": "Font Weight (Title)",
+            "default_val": "700",
+            "editor": "Dropdown",
+            "name": "fontweighttitle",
+            "options": "100,200,300,400,500,600,700,800,900",
+            "rank": 12
+        },
+        "AAO": {
+            "caption": "Font Color (Message)",
+            "default_val": "rgba(255,255,255,1)",
+            "editor": "Color",
+            "name": "fontcolormessage",
+            "rank": 13
+        },
+        "AAP": {
+            "caption": "Font Color (Title)",
+            "default_val": "rgba(255,255,255,1)",
+            "editor": "Color",
+            "name": "fontcolortitle",
+            "rank": 14
+        },
+        "AAQ": {
+            "caption": "Font Size (Message) in px",
+            "default_val": 14,
+            "doc": "Font Size (in pixels). Example: 14",
+            "editor": "DynamicValue",
+            "name": "fontsizemessage",
+            "rank": 15,
+            "value": "number"
+        },
+        "AAR": {
+            "caption": "--- Progress Bar Settings ---",
+            "editor": "Label",
+            "name": "info_progress",
+            "rank": 17
+        },
+        "AAS": {
+            "caption": "Show Progress Bar",
+            "default_val": true,
+            "doc": "Show a Progress Bar at the bottom of the Alert Message.",
+            "editor": "Checkbox",
+            "name": "progressbarshow",
+            "rank": 18
+        },
+        "AAT": {
+            "caption": "Progress Bar Color",
+            "default_val": "rgba(0,0,0,0.49)",
+            "editor": "Color",
+            "name": "progressbarcolor",
+            "optional": true,
+            "rank": 19
+        },
+        "AAU": {
+            "caption": "--- Select an Icon or Image to display at the left side of the Alert Message. If you do not want to show Icons or Images, just leave these fields blank. ---",
+            "editor": "Label",
+            "name": "info_iconimage",
+            "rank": 20
+        },
+        "AAV": {
+            "caption": "Icon",
+            "default_val": "None",
+            "editor": "Dropdown",
+            "name": "icon",
+            "options": "None,Info,Success,Error,Warning",
+            "rank": 21
+        },
+        "AAW": {
+            "caption": "Icon Color",
+            "default_val": "rgba(255,255,255,1)",
+            "editor": "Color",
+            "name": "icon_color",
+            "optional": true,
+            "rank": 22,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "Image Width",
+            "doc": "Image Width (in pixels). Example: 50",
+            "editor": "DynamicValue",
+            "name": "image_width",
+            "optional": true,
+            "rank": 24,
+            "value": "number"
+        },
+        "AAY": {
+            "caption": "Image URL",
+            "doc": "Image URL. Example: https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+            "editor": "DynamicValue",
+            "name": "image",
+            "optional": true,
+            "rank": 23,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "Animation Out",
+            "default_val": "flipOutX",
+            "doc": "Default toast close animation.",
+            "editor": "Dropdown",
+            "name": "animation_out",
+            "options": "fadeOut,fadeOut down,fadeOut up,flipOutX",
+            "rank": 7
+        },
+        "AAa": {
+            "caption": "Font Size (Title) in px",
+            "default_val": 14,
+            "doc": "Font Size (in pixels). Example: 14",
+            "editor": "DynamicValue",
+            "name": "fontsizetitle",
+            "rank": 16,
+            "value": "number"
+        },
+        "AAb": {
+            "caption": "Font Name (Message)",
+            "default_val": "Poppins",
+            "doc": "Type the name of the font exactly as you see in Bubble's Font Library. Example: Poppins",
+            "editor": "DynamicValue",
+            "name": "fontnamemessage",
+            "rank": 10,
+            "value": "text"
+        }
+    },
+    "platform_type": "web",
+    "type": "client_side"
+}

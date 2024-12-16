@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical"
+    },
+    "data_tracked": false,
+    "description": "SleekToast - Modern and Customizable Notifications for Your App\n\nSleekToast is a lightweight, modern, and fully customizable solution for displaying visual notifications in any application. Perfect for alerts, messages, or quick information, it offers maximum flexibility and an elegant design.\n\n✅ Compatible with all modern browsers\n✅ Easy to set up and use\n✅ Highly customizable: personalize colors, positioning, animations, and icons\n✅ Flawless user experience with responsive and minimalist design",
+    "image": "//meta-q.cdn.bubble.io/f1734278528163x384650067470052160/Alert%20Message.png",
+    "license": "open_source",
+    "name": "Alert SleekToast - BEP"
+}
